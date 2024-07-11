@@ -1,0 +1,10 @@
+.navbar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5cm; /* Largura do degradê */
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 166, 0, 0.918), rgba(0, 0, 0, 0)); /* Degrade de laranja a transparente */
+    z-index: 1; /* Garante que o degradê esteja acima do conteúdo da navbar */
+}
